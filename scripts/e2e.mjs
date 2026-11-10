@@ -3,7 +3,7 @@
 // brute force here in Node, and checks the page agrees; then drives the controls.
 // Run: node scripts/e2e.mjs [baseUrl]   (writes docs/e2e.json)
 import { writeFileSync, readFileSync, mkdirSync } from 'node:fs';
-import { chromium } from '../../video/node_modules/playwright/index.mjs';
+import { chromium } from 'playwright';
 
 const base = process.argv[2] ?? 'https://grid-tide.pages.dev';
 const results = [];

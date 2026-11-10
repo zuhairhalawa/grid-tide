@@ -51,7 +51,7 @@ What that means in a year, with typical machines: a dishwasher run 5 times a wee
 ## Tests
 
 - `npm test`: 26 unit tests. The sliding-window pick matches brute force on 300 random series; deadlines are respected; ties go earliest; London time across the clock change; gap and glitch repair; API parsing; calendar file; the curve never dips below the data.
-- `node scripts/e2e.mjs [url]`: 13 checks in Edge on the live site. It captures the forecast the page downloaded, recomputes the cleanest start by brute force in Node and checks the page agrees; then drives the deadline, drag, reminder download, all machines, a region switch and a phone viewport. Last run: [docs/e2e.json](docs/e2e.json).
+- `npm run e2e -- [url]`: 13 checks in Microsoft Edge (Playwright, `channel: msedge`) on the live site. It captures the forecast the page downloaded, recomputes the cleanest start by brute force in Node and checks the page agrees; then drives the deadline, drag, reminder download, all machines, a region switch and a phone viewport. Last run: [docs/e2e.json](docs/e2e.json).
 
 ## Run it
 

@@ -1,5 +1,5 @@
 // Screenshots in Edge: node scripts/shots.mjs [baseUrl] [outDir]
-import { chromium } from '../../video/node_modules/playwright/index.mjs';
+import { chromium } from 'playwright';
 const base = process.argv[2] ?? 'http://localhost:5195';
 const out = process.argv[3] ?? 'shots';
 const browser = await chromium.launch({ channel: 'msedge' });

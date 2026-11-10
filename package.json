@@ -8,13 +8,15 @@
     "preview": "vite preview --port 5196",
     "test": "vitest run",
     "replay": "node --experimental-strip-types scripts/replay.ts",
-    "save-forecast": "node --experimental-strip-types scripts/save-forecast.ts"
+    "save-forecast": "node --experimental-strip-types scripts/save-forecast.ts",
+    "e2e": "node scripts/e2e.mjs"
   },
   "license": "MIT",
   "type": "module",
   "private": true,
   "devDependencies": {
     "@types/node": "^24.19.2",
+    "playwright": "^1.65.0",
     "typescript": "^5.9.3",
     "vite": "^7.3.8",
     "vitest": "^3.2.7"
