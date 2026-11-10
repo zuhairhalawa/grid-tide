@@ -1,0 +1,73 @@
+{
+ "base": "https://grid-tide.pages.dev",
+ "ranAt": "2026-11-10T21:29:29.846Z",
+ "passed": 13,
+ "total": 13,
+ "results": [
+  {
+   "name": "loads the live forecast",
+   "ok": true,
+   "detail": "Live forecast, fetched 21:29 UK time"
+  },
+  {
+   "name": "dishwasher pick matches brute force",
+   "ok": true,
+   "detail": "page \"Cleanest start: Wed 03:00\", brute force Wed 03:00 (196.5 g/kWh)"
+  },
+  {
+   "name": "grams per run = 0.9 kWh x mean intensity",
+   "ok": true,
+   "detail": "Dishwasher, 0.9 kWh over 3 h: 177 g at Wed 03:00, against 205 g if you press start now."
+  },
+  {
+   "name": "a later deadline keeps or improves the saving",
+   "ok": true,
+   "detail": "−28 g -> −131 g"
+  },
+  {
+   "name": "latest-deadline pick matches brute force",
+   "ok": true,
+   "detail": "Cleanest start: Thu 11:30"
+  },
+  {
+   "name": "dragging moves the boat off the cleanest start",
+   "ok": true,
+   "detail": "Your start: Wed 03:00"
+  },
+  {
+   "name": "\"Back to the cleanest\" returns to the pick",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "reminder downloads a valid calendar file",
+   "ok": true,
+   "detail": "grid-tide-dishwasher.ics"
+  },
+  {
+   "name": "all four machines render a plan",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "switching to London redraws with London numbers",
+   "ok": true,
+   "detail": "253,235,226,203,205"
+  },
+  {
+   "name": "phone: no horizontal page scroll",
+   "ok": true,
+   "detail": "overflow 0px"
+  },
+  {
+   "name": "saved forecast is labelled as saved",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "no console errors",
+   "ok": true,
+   "detail": ""
+  }
+ ]
+}
