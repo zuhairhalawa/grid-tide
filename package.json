@@ -1,0 +1,26 @@
+{
+  "name": "grid-tide",
+  "version": "0.1.0",
+  "description": "Run your appliances when the grid is cleanest.",
+  "scripts": {
+    "dev": "vite --port 5195",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 5196",
+    "test": "vitest run",
+    "replay": "node --experimental-strip-types scripts/replay.ts",
+    "save-forecast": "node --experimental-strip-types scripts/save-forecast.ts"
+  },
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.8",
+    "vitest": "^3.2.7"
+  },
+  "dependencies": {
+    "@fontsource-variable/archivo": "^5.3.0",
+    "@fontsource/source-serif-4": "^5.3.1"
+  }
+}

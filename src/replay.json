@@ -1,0 +1,380 @@
+{
+ "period": {
+  "from": "2025-11-01",
+  "to": "2026-10-31",
+  "slots": 17520,
+  "repairedSlots": 1
+ },
+ "appliances": [
+  {
+   "id": "dishwasher",
+   "name": "Dishwasher",
+   "kWh": 0.9,
+   "slots": 6,
+   "perWeek": 5,
+   "habits": [
+    {
+     "label": "19:00, done by 07:00",
+     "habitStart": 1140,
+     "windowHours": 12,
+     "days": 364,
+     "habitMean": 145.8,
+     "shiftedMean": 109.1,
+     "hindsightMean": 106.3,
+     "cutPct": 25.2,
+     "hindsightCutPct": 27.1,
+     "daysBetterPct": 90.7,
+     "meanWaitHours": 6.2
+    },
+    {
+     "label": "19:00, done within 24 h",
+     "habitStart": 1140,
+     "windowHours": 24,
+     "days": 364,
+     "habitMean": 145.8,
+     "shiftedMean": 82.8,
+     "hindsightMean": 80.3,
+     "cutPct": 43.2,
+     "hindsightCutPct": 45,
+     "daysBetterPct": 98.4,
+     "meanWaitHours": 12.9
+    },
+    {
+     "label": "18:00, done by 07:00",
+     "habitStart": 1080,
+     "windowHours": 13,
+     "days": 364,
+     "habitMean": 149.7,
+     "shiftedMean": 108.8,
+     "hindsightMean": 105.8,
+     "cutPct": 27.3,
+     "hindsightCutPct": 29.3,
+     "daysBetterPct": 85.7,
+     "meanWaitHours": 6.8
+    },
+    {
+     "label": "21:00, done by 07:00",
+     "habitStart": 1260,
+     "windowHours": 10,
+     "days": 364,
+     "habitMean": 128,
+     "shiftedMean": 109.5,
+     "hindsightMean": 106.7,
+     "cutPct": 14.5,
+     "hindsightCutPct": 16.7,
+     "daysBetterPct": 83.8,
+     "meanWaitHours": 4.5
+    },
+    {
+     "label": "08:00, done by 18:00",
+     "habitStart": 480,
+     "windowHours": 10,
+     "days": 365,
+     "habitMean": 113.4,
+     "shiftedMean": 98.7,
+     "hindsightMean": 96.7,
+     "cutPct": 13,
+     "hindsightCutPct": 14.7,
+     "daysBetterPct": 84.1,
+     "meanWaitHours": 3.5
+    }
+   ]
+  },
+  {
+   "id": "washer",
+   "name": "Washing machine",
+   "kWh": 0.7,
+   "slots": 6,
+   "perWeek": 4,
+   "habits": [
+    {
+     "label": "19:00, done by 07:00",
+     "habitStart": 1140,
+     "windowHours": 12,
+     "days": 364,
+     "habitMean": 145.8,
+     "shiftedMean": 109.1,
+     "hindsightMean": 106.3,
+     "cutPct": 25.2,
+     "hindsightCutPct": 27.1,
+     "daysBetterPct": 90.7,
+     "meanWaitHours": 6.2
+    },
+    {
+     "label": "19:00, done within 24 h",
+     "habitStart": 1140,
+     "windowHours": 24,
+     "days": 364,
+     "habitMean": 145.8,
+     "shiftedMean": 82.8,
+     "hindsightMean": 80.3,
+     "cutPct": 43.2,
+     "hindsightCutPct": 45,
+     "daysBetterPct": 98.4,
+     "meanWaitHours": 12.9
+    },
+    {
+     "label": "18:00, done by 07:00",
+     "habitStart": 1080,
+     "windowHours": 13,
+     "days": 364,
+     "habitMean": 149.7,
+     "shiftedMean": 108.8,
+     "hindsightMean": 105.8,
+     "cutPct": 27.3,
+     "hindsightCutPct": 29.3,
+     "daysBetterPct": 85.7,
+     "meanWaitHours": 6.8
+    },
+    {
+     "label": "21:00, done by 07:00",
+     "habitStart": 1260,
+     "windowHours": 10,
+     "days": 364,
+     "habitMean": 128,
+     "shiftedMean": 109.5,
+     "hindsightMean": 106.7,
+     "cutPct": 14.5,
+     "hindsightCutPct": 16.7,
+     "daysBetterPct": 83.8,
+     "meanWaitHours": 4.5
+    },
+    {
+     "label": "08:00, done by 18:00",
+     "habitStart": 480,
+     "windowHours": 10,
+     "days": 365,
+     "habitMean": 113.4,
+     "shiftedMean": 98.7,
+     "hindsightMean": 96.7,
+     "cutPct": 13,
+     "hindsightCutPct": 14.7,
+     "daysBetterPct": 84.1,
+     "meanWaitHours": 3.5
+    }
+   ]
+  },
+  {
+   "id": "dryer",
+   "name": "Tumble dryer",
+   "kWh": 2,
+   "slots": 4,
+   "perWeek": 2,
+   "habits": [
+    {
+     "label": "19:00, done by 07:00",
+     "habitStart": 1140,
+     "windowHours": 12,
+     "days": 364,
+     "habitMean": 149.3,
+     "shiftedMean": 108.8,
+     "hindsightMean": 104.7,
+     "cutPct": 27.1,
+     "hindsightCutPct": 29.9,
+     "daysBetterPct": 89,
+     "meanWaitHours": 6.6
+    },
+    {
+     "label": "19:00, done within 24 h",
+     "habitStart": 1140,
+     "windowHours": 24,
+     "days": 364,
+     "habitMean": 149.3,
+     "shiftedMean": 82.3,
+     "hindsightMean": 79.1,
+     "cutPct": 44.9,
+     "hindsightCutPct": 47,
+     "daysBetterPct": 98.4,
+     "meanWaitHours": 13.4
+    },
+    {
+     "label": "18:00, done by 07:00",
+     "habitStart": 1080,
+     "windowHours": 13,
+     "days": 364,
+     "habitMean": 151,
+     "shiftedMean": 108.5,
+     "hindsightMean": 104.1,
+     "cutPct": 28.1,
+     "hindsightCutPct": 31.1,
+     "daysBetterPct": 82.1,
+     "meanWaitHours": 7
+    },
+    {
+     "label": "21:00, done by 07:00",
+     "habitStart": 1260,
+     "windowHours": 10,
+     "days": 364,
+     "habitMean": 132.8,
+     "shiftedMean": 109,
+     "hindsightMean": 105.1,
+     "cutPct": 18,
+     "hindsightCutPct": 20.9,
+     "daysBetterPct": 84.3,
+     "meanWaitHours": 5
+    },
+    {
+     "label": "08:00, done by 18:00",
+     "habitStart": 480,
+     "windowHours": 10,
+     "days": 365,
+     "habitMean": 117.7,
+     "shiftedMean": 98.1,
+     "hindsightMean": 95.6,
+     "cutPct": 16.6,
+     "hindsightCutPct": 18.8,
+     "daysBetterPct": 86,
+     "meanWaitHours": 4
+    }
+   ]
+  },
+  {
+   "id": "ev",
+   "name": "Electric car",
+   "kWh": 28,
+   "slots": 8,
+   "perWeek": 2,
+   "habits": [
+    {
+     "label": "19:00, done by 07:00",
+     "habitStart": 1140,
+     "windowHours": 12,
+     "days": 364,
+     "habitMean": 141.1,
+     "shiftedMean": 109.5,
+     "hindsightMean": 107.6,
+     "cutPct": 22.3,
+     "hindsightCutPct": 23.7,
+     "daysBetterPct": 90.1,
+     "meanWaitHours": 5.7
+    },
+    {
+     "label": "19:00, done within 24 h",
+     "habitStart": 1140,
+     "windowHours": 24,
+     "days": 364,
+     "habitMean": 141.1,
+     "shiftedMean": 83.4,
+     "hindsightMean": 81.4,
+     "cutPct": 40.9,
+     "hindsightCutPct": 42.3,
+     "daysBetterPct": 97.8,
+     "meanWaitHours": 12.3
+    },
+    {
+     "label": "18:00, done by 07:00",
+     "habitStart": 1080,
+     "windowHours": 13,
+     "days": 364,
+     "habitMean": 147.1,
+     "shiftedMean": 109.5,
+     "hindsightMean": 107.3,
+     "cutPct": 25.6,
+     "hindsightCutPct": 27.1,
+     "daysBetterPct": 86.5,
+     "meanWaitHours": 6.3
+    },
+    {
+     "label": "21:00, done by 07:00",
+     "habitStart": 1260,
+     "windowHours": 10,
+     "days": 364,
+     "habitMean": 125.2,
+     "shiftedMean": 109.8,
+     "hindsightMean": 108,
+     "cutPct": 12.2,
+     "hindsightCutPct": 13.7,
+     "daysBetterPct": 83,
+     "meanWaitHours": 3.9
+    },
+    {
+     "label": "08:00, done by 18:00",
+     "habitStart": 480,
+     "windowHours": 10,
+     "days": 365,
+     "habitMean": 110.2,
+     "shiftedMean": 99.3,
+     "hindsightMean": 97.9,
+     "cutPct": 9.8,
+     "hindsightCutPct": 11.1,
+     "daysBetterPct": 81.4,
+     "meanWaitHours": 2.9
+    }
+   ]
+  }
+ ],
+ "months": [
+  {
+   "month": "2025-11",
+   "habitMean": 136.6,
+   "shiftedMean": 91.8,
+   "cutPct": 32.8
+  },
+  {
+   "month": "2025-12",
+   "habitMean": 122.6,
+   "shiftedMean": 84.4,
+   "cutPct": 31.2
+  },
+  {
+   "month": "2026-01",
+   "habitMean": 148.9,
+   "shiftedMean": 108.3,
+   "cutPct": 27.3
+  },
+  {
+   "month": "2026-02",
+   "habitMean": 151.2,
+   "shiftedMean": 98.1,
+   "cutPct": 35.1
+  },
+  {
+   "month": "2026-03",
+   "habitMean": 140,
+   "shiftedMean": 103.6,
+   "cutPct": 26
+  },
+  {
+   "month": "2026-04",
+   "habitMean": 119.5,
+   "shiftedMean": 88.2,
+   "cutPct": 26.2
+  },
+  {
+   "month": "2026-05",
+   "habitMean": 167.5,
+   "shiftedMean": 126.9,
+   "cutPct": 24.3
+  },
+  {
+   "month": "2026-06",
+   "habitMean": 166.5,
+   "shiftedMean": 141.8,
+   "cutPct": 14.8
+  },
+  {
+   "month": "2026-07",
+   "habitMean": 156.4,
+   "shiftedMean": 129.4,
+   "cutPct": 17.3
+  },
+  {
+   "month": "2026-08",
+   "habitMean": 166.2,
+   "shiftedMean": 135.7,
+   "cutPct": 18.4
+  },
+  {
+   "month": "2026-09",
+   "habitMean": 140.6,
+   "shiftedMean": 100.8,
+   "cutPct": 28.3
+  },
+  {
+   "month": "2026-10",
+   "habitMean": 133.6,
+   "shiftedMean": 98.1,
+   "cutPct": 26.6
+  }
+ ]
+}
