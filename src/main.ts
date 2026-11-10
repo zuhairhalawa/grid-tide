@@ -220,7 +220,8 @@ function attachDrag() {
     if (!geomNow) return;
     const a = appliance();
     const box = chart.getBoundingClientRect();
-    const raw = geomNow.slotAt(e.clientX - box.left) - a.slots / 2;
+    // map screen pixels to SVG units (they differ when the page is zoomed)
+    const raw = geomNow.slotAt((e.clientX - box.left) * (geomNow.w / box.width)) - a.slots / 2;
     const s = Math.max(state.nowIndex, Math.min(deadlineOf(a) - a.slots, Math.round(raw)));
     if (s !== state.machines[a.id].start) {
       state.machines[a.id].start = s;
