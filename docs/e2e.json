@@ -1,38 +1,38 @@
 {
  "base": "https://grid-tide.pages.dev",
- "ranAt": "2026-11-10T21:29:29.846Z",
+ "ranAt": "2026-11-10T22:25:38.283Z",
  "passed": 13,
  "total": 13,
  "results": [
   {
    "name": "loads the live forecast",
    "ok": true,
-   "detail": "Live forecast, fetched 21:29 UK time"
+   "detail": "Live forecast, fetched 22:24 UK time"
   },
   {
    "name": "dishwasher pick matches brute force",
    "ok": true,
-   "detail": "page \"Cleanest start: Wed 03:00\", brute force Wed 03:00 (196.5 g/kWh)"
+   "detail": "page \"Cleanest start: Wed 03:00\", brute force Wed 03:00 (204.0 g/kWh)"
   },
   {
    "name": "grams per run = 0.9 kWh x mean intensity",
    "ok": true,
-   "detail": "Dishwasher, 0.9 kWh over 3 h: 177 g at Wed 03:00, against 205 g if you press start now."
+   "detail": "Dishwasher, 0.9 kWh over 3 h: 184 g at Wed 03:00, against 201 g if you press start now."
   },
   {
    "name": "a later deadline keeps or improves the saving",
    "ok": true,
-   "detail": "−28 g -> −131 g"
+   "detail": "−18 g -> −120 g"
   },
   {
    "name": "latest-deadline pick matches brute force",
    "ok": true,
-   "detail": "Cleanest start: Thu 11:30"
+   "detail": "Cleanest start: Thu 04:00"
   },
   {
    "name": "dragging moves the boat off the cleanest start",
    "ok": true,
-   "detail": "Your start: Wed 03:00"
+   "detail": "Your start: Wed 04:00"
   },
   {
    "name": "\"Back to the cleanest\" returns to the pick",
@@ -52,7 +52,7 @@
   {
    "name": "switching to London redraws with London numbers",
    "ok": true,
-   "detail": "253,235,226,203,205"
+   "detail": "249,234,225,207,220"
   },
   {
    "name": "phone: no horizontal page scroll",
