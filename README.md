@@ -4,7 +4,7 @@
 
 Live: **https://grid-tide.pages.dev**
 
-<!-- VIDEO -->
+Demo video (3 min): **https://youtu.be/YXyiWlacgGQ**
 
 ![Grid Tide on a laptop: the 48-hour carbon forecast drawn as a sea, with the dishwasher as a boat at the cleanest start](docs/screenshots/desktop.png)
 
