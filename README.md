@@ -21,7 +21,7 @@ No account, no tracking, no server: the page fetches the public forecast straigh
 
 ## The evidence: a year replayed
 
-`npm run replay` replays 17,520 half-hours of Great Britain's national carbon intensity (1 Nov 2025 to 31 Oct 2026). Every evening, a machine could start at 7 pm. Grid Tide picks a start before 7 am from the **forecast**, then both runs are scored on the **actual** intensity. Full tables: [docs/REPLAY.md](docs/REPLAY.md).
+`npm run replay` replays 17,520 half-hours of Great Britain's national carbon intensity (1 Nov 2025 to 31 Oct 2026). Every evening, a machine could start at 7 pm. Grid Tide picks a start before 7 am from the **forecast**, then both runs are scored on the **actual** intensity (NESO's after-the-fact estimate of what the grid emitted, not the forecast). Full tables: [docs/REPLAY.md](docs/REPLAY.md).
 
 | Machine (run length) | 7 pm start, g/kWh | Grid Tide's pick, g/kWh | Cut | Evenings cleaner | Mean wait |
 |---|---|---|---|---|---|
@@ -46,7 +46,7 @@ What that means in a year, with typical machines: a dishwasher run 5 times a wee
 - The history keeps the last forecast made for each half-hour; a forecast 12 hours ahead is less accurate, so live savings can be a little lower than the replay.
 - Regional history has no actual values, so the replay is national only.
 - Live data covers Great Britain only. The method works with any grid forecast, but no other free, keyless forecast is wired in yet.
-- Machine figures are typical (EU energy-label ranges); type in the ones on your label.
+- Machine figures are typical values (EU energy-label ranges for the dishwasher and washing machine; a heat-pump dryer; a 7 kW charger for 4 hours); type in the ones on your label.
 
 ## Tests
 

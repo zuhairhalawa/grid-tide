@@ -284,7 +284,7 @@ function renderYear() {
   const ev = R.appliances.find((a) => a.id === 'ev')!.habits[0];
   const day24 = R.appliances[0].habits[1];
   $('facts').innerHTML = `
-    <div class="fact"><p class="n">${dish.cutPct}%</p><p>less CO2 for a dishwasher moved from 7 pm to Grid Tide's pick before 7 am, scored on what the grid really emitted.</p></div>
+    <div class="fact"><p class="n">${dish.cutPct}%</p><p>less CO2 for a dishwasher moved from 7 pm to Grid Tide's pick before 7 am, scored on the grid's recorded intensity.</p></div>
     <div class="fact"><p class="n">${Math.round(dish.daysBetterPct)}%</p><p>of the ${dish.days} evenings, the shifted run was cleaner. The average wait was ${dish.meanWaitHours} hours.</p></div>
     <div class="fact"><p class="n">${day24.cutPct}%</p><p>less if it can wait up to a day. An electric car charging overnight: ${ev.cutPct}%.</p></div>`;
 
